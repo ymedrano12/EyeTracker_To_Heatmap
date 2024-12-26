@@ -1,0 +1,26 @@
+//This file will define your extension's settings, permissions, and behavior.
+
+{
+    "manifest_version": 3,
+    "name": "Eye Tracking for Shein",
+    "version": "1.0",
+    "description": "Track eye movements on Shein.com using WebGazer.js",
+    "permissions": [
+      "activeTab",
+      "storage",
+      "webNavigation"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://www.shein.com/*"],
+        "js": ["content.js"]
+      }
+    ],
+    "host_permissions": [
+      "http://*/*",
+      "https://*/*"
+    ]
+  }
