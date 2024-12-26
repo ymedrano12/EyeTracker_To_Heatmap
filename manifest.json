@@ -15,7 +15,7 @@
     },
     "content_scripts": [
       {
-        "matches": ["https://www.shein.com/*"],
+        "matches": ["https://us.shein.com/shein-picks.html?url_from=usgooglebrandshein_shein05_20210124&cid=370313608&setid=25652838688&adid=494274620124&kwd=kwd-1667706624&pf=GOOGLE&gad_source=1&gclid=CjwKCAiAmrS7BhBJEiwAei59i9Pr9t4M4AbVHJfNrqNXxmaEyrZwG3JvMA74hLKpB9xbTJRomOUsExoCgW8QAvD_BwE"],
         "js": ["content.js"]
       }
     ],
