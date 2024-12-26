@@ -3,5 +3,5 @@
 
 // background.js (optional)
 chrome.runtime.onInstalled.addListener(function() {
-    console.log("Eye Tracking for Shein Extension installed");
+    console.log("WebGazer.js initialized!");
 });
